@@ -1,0 +1,365 @@
+body {
+	font-family: "Plus Jakarta Sans";
+	background: linear-gradient(rgb(113, 181, 83), rgb(58, 182, 106));
+	height: 150%;
+	background-size: cover;
+	margin: 0px;
+
+	animation-name: fade-in;
+	animation-duration: 2s;
+
+}
+
+
+span{
+	color: black
+}
+
+h1 {
+	color: rgb(49, 94, 29);
+	font-family:"Plus Jakarta Sans";
+
+	animation-name: refreshblack;
+	animation-duration: 1s;
+}
+
+h2{
+	color: rgb(19, 77, 23);
+	text-align: center;
+}
+
+#about-me-flex {
+	display: flex;
+	justify-content: space-around;
+}
+
+#about-me > h2 {
+	font-family: "Jost";
+	text-align: center;
+}
+
+#about-me-flex > img{
+	height: 500px;
+	padding: 5px;
+}
+.nav-bar {
+	color: rgb(49, 94, 29);
+	font-family: "Plus Jakarta Sans";
+	display: grid;
+	grid-template-columns: repeat(11, 10%);
+	background-color: transparent;
+	margin: 0px;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+    z-index: 100;
+	transition: all 1s ease;
+}
+
+
+.nav-bar:hover {
+	background-color: rgb(0, 0, 0);
+}
+
+a:visited {
+	color: rgb(49, 94, 29);
+}
+
+a{
+	align-self: center;
+}
+
+.yasho {
+	font-size: 40px;
+	transition: all 500ms ease;
+}
+
+.yasho:hover {
+	color: white;
+}
+
+.ab {
+	grid-column: 6;
+	text-align: center;
+	transition: all 500ms ease;
+}
+
+.ab:hover{
+	color: white;
+	transform: matrix(1.1, 0, 0, 1.1, -0, 10)
+}
+
+.co {
+	grid-column: 7;
+	text-align: center;
+	transition: all 500ms ease;
+}
+
+.co:hover{
+	color: white;
+	transform: matrix(1.1, 0, 0, 1.1, -0, 10)
+}
+
+.mus {
+	grid-column: 8;
+	grid-row: 1.5;
+	text-align: center;
+	transition: all 500ms ease;
+}
+
+.mus:hover{
+	color: white;
+	transform: matrix(1.2, 0, 0, 1.2, -0, 10)
+}
+
+.proj{
+	grid-column: 9;
+	color:rgb(49, 94, 29) ;
+	text-align: center;
+	transition: all 500ms ease;
+}
+.proj:hover{
+	color: white;
+	transform: matrix(1.2, 0, 0, 1.2, -0, 10)
+}
+
+.soc{
+	grid-column: 10;
+	text-align: center;
+	transition: all 500ms ease;
+}
+
+.soc:hover{
+	color: white;
+	transform: matrix(1.2, 0, 0, 1.2, -0, 10)
+}
+.sec-title {
+	font-size: 40px;
+	text-align: center;
+	transition: all 500ms ease;
+}
+
+
+.sec-title:hover {
+	color: rgb(0, 0, 0);
+	/*transition: color 500ms ease;*/
+}
+
+#home{
+	transition: all 500ms ease;
+	display: grid;
+	grid-template-rows: repeat(2, 25vw);
+}
+
+#home> h1{
+	grid-row: 0;
+	align-self: center;
+	animation-name: float;
+	animation-timing-function: ease-in-out;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#home > h2{
+	color: transparent;
+	grid-row: 2;
+	transition: all 500ms ease;
+	align-self: center;
+}
+
+#home> h2:hover{
+	color: rgb(19, 77, 23);
+	transform: translateY(-8px);
+}
+
+#code{
+	background-color: black;
+	padding: 5px;
+	display: grid;
+	transition: all 500ms ease;
+	border: 10px;
+	border-color: red;
+	align-items: center;
+	text-align: center;
+}
+
+#code:hover {
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.15);;
+}
+#code > h1:hover {
+	color: black;
+}
+#code > h3{
+	color: rgb(19, 77, 23);
+}
+#code > p{
+	justify-content: space-around;
+	color: rgb(16, 99, 80)
+}
+
+#projects{
+	background-color: rgb(225, 198, 153);
+	padding: 5px;
+	display: grid;
+	transition: all 500ms ease;
+	border: 10px;
+	border-color: red;
+	align-items: stretch;
+	text-align: center;
+}
+
+.maxTweetedWord>h3{
+	color: #B56653;
+}
+.maxTweetedWord>a{
+	color: #B56653;
+	transition: all 1s ease;
+}
+.maxTweetedWord>a:hover{
+	color: rgb(19, 77, 23);
+}
+
+#social {
+	display: grid;
+	grid-template-rows: repeat(2, 50%);
+	text-align: center;
+	transition: all 500ms ease;
+	padding: 5px;
+}
+#social > h1{
+	transition: all 500ms ease;
+	grid-row: 0;
+}
+#social > h1:hover {
+	color: rgb(255,255,255);
+	/*transition: color 500ms ease;*/
+}
+
+
+.fa-brands{
+	display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    font-size: 45px;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+
+	transition: all 400ms ease;
+}
+
+.fa-brands:hover{
+	color: black;
+}
+.fa-solid{
+	display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 45px;
+    padding-left: 11%;
+    padding-right: 10%;
+    
+    font-size: 45px;
+    text-decoration: none;
+    font-style: normal;
+    text-align: center;
+
+	transition: all 400ms ease;
+}
+
+.fa-solid:hover{
+	color: black;
+}
+
+
+#logo-text{
+	transition: all 400ms ease;
+}
+#logo-text:hover{
+	color: black;
+}
+#link{
+	transition: all 400ms ease;
+}
+#link:hover{
+	color: white;
+}
+
+
+
+#skillset {
+	transition: all 500ms ease;
+}
+
+#skillset:hover {
+	font-size: 30px;
+}
+
+.skillset-div {
+	display: contents;
+}
+
+/*.playlist-images {
+	display: grid;
+	grid-template-columns:auto auto ;
+	grid-template-rows: auto;
+	grid-column-gap: 30px;
+	scroll-behavior: smooth;
+	align-content: center;
+	justify-content: center;
+	
+	align-content: space-around;
+} */
+	
+
+.images {
+	height: 300px;
+	width: auto;
+	column-gap: 10px 10px;
+	/*margin: 10px;
+	padding: 10px;*/
+	transition: all 500ms ease;
+}
+
+.images:hover {
+	/*transform: scale(1.5);*/
+	height: 400px;
+	width: auto;
+	align-content: center;
+}
+
+footer{
+	display: grid;
+	grid-template-rows: 40px;
+	text-align: right;
+	padding: 10px;
+}
+
+footer>a>h4{
+	color: black;
+	transition: all 500ms ease;
+}
+footer>a>h4:hover{
+	color: whitesmoke;
+}
+
+@keyframes fade-in {
+	from {opacity: 0; transform: translateY(-12px);}
+	to {opacity: 1; transform: translateY(0px);}
+}
+
+
+@keyframes float {
+	0% {transform:translateY(8px);}
+	100% {transform: translateY(-8px);}
+}
+
+@keyframes refreshblack {
+	0% {color: black;}
+	100% {color: rgb(49, 94, 29);}
+}
